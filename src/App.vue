@@ -16,5 +16,6 @@ import Main from './components/Main.vue';
 .nav-footer-wrapper {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 </style>

@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "SlideImage"
+    name: "SlideImage",
 }
 </script>
 
@@ -8,13 +8,13 @@ export default {
 <swiper-container class="swiper" :spaceBetween="30" :centeredSlides="true" :autoplay="{
       delay: 3000,
       disableOnInteraction: false,
-    }" :speed="900" :pagination="{
+    }" :speed="1200" :pagination="{
       clickable: true,
-    }" :navigation="true" :modules="modules" @autoplayTimeLeft="onAutoplayTimeLeft">
-    <swiper-slide><img src="/images/slider_images/vue.jpg" /></swiper-slide>
-    <swiper-slide><img src="/images/slider_images/laravel.png" /></swiper-slide>
-    <swiper-slide><img src="/images/slider_images/react.jpeg" /></swiper-slide>
-    <swiper-slide><img src="/images/slider_images/angular.png" /></swiper-slide>
+    }" :navigation="true">
+    <swiper-slide><img src="/images/slider_images/slider1.jpg" /></swiper-slide>
+    <swiper-slide><img src="/images/slider_images/slider2.jpg" /></swiper-slide>
+    <swiper-slide><img src="/images/slider_images/slider3.jpg" /></swiper-slide>
+    <swiper-slide><img src="/images/slider_images/slider4.jpg" /></swiper-slide>
 </swiper-container>
 </template>
 

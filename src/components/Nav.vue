@@ -12,6 +12,7 @@ export default {
         <div class="nav-item">
             <ul>
                 <li>home</li>
+                <li>skills</li>
                 <li>projects</li>
                 <li>contact</li>
                 <li>about me</li>
@@ -27,6 +28,10 @@ export default {
     background-color: black;
     color: white;
     line-height: 2rem;
+    top:0;
+    left: 0;
+    z-index: 1000;
+    position: sticky;
 }
 
 .logo {
