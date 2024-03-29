@@ -7,6 +7,7 @@ import { register } from 'swiper/element/bundle';
 register();
 
 /* import the fontawesome core */
+/* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 /* import font awesome icon component */
